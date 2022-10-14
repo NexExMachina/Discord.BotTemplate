@@ -10,6 +10,6 @@ const client = new Client({
 
 client.login(config.token)
     .then(r => client.on("ready", () =>{
-        console.log("I am ready and watching messages!")
+        console.log("I am ready!")
     })); // login using the provided discord token and report ready
 //End Connect
